@@ -14,4 +14,9 @@
     <string name="title">Title: %s</string>
     <string name="article_sources">Sources: %s</string>
     <string name="publishedAt">Published At: %s</string>
+
+    <string name="no_api_key_error">Please enter Api Key</string>
+    <string name="submit_text">Submit</string>
+    <string name="hint_api_key">API Key</string>
+    <string name="enter_api_key">Enter Api Key</string>
 </resources>

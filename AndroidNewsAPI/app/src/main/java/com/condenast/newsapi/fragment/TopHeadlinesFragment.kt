@@ -26,7 +26,7 @@ class TopHeadlinesFragment : Fragment(), OnArticlesListener {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        NewsApi.getTopHeadlines(onArticlesListener = this, searchTerm = "trump")
+        NewsApi.getTopHeadlines(onArticlesListener = this, searchTerm = "US")
     }
 
     override fun onArticlesResponse(articlesResponse: ArticlesResponse) {
